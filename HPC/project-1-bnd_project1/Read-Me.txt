@@ -1,0 +1,41 @@
+    SOME THEORETICAL NOTES
+
+1-d KdV equation
+                du/dt + d3u/dx3 + 6udu/dx = 0 
+//describe the equation and maybe derivation.
+
+This equation has soliton solutions. Solitons are single solitary waves that arises from a balance between nonlinear(third term)
+and dispersive effects(second term) which appear in physical contexts abundantly, e.g., shallow water waves, fibre optics.
+It's is a self-reinforcing wave packet that maintains its shape while it propagates at a constant velocity.
+
+Analytical solution of the above equation, similar to Burgers eq. soln:
+
+u(x, 0) = u_0(x)
+u(x, t) decays sufficiently rapidly if all xderivatives approach 0 as |x|→∞
+Let, u(x,t) = f(x-ct) = f(z)
+the eq. then becomes, 
+                          -cdf/dz = d^3f/dz^3 + 3df^2/dz
+  inegrate the multiply with df/dz and on further integration gives
+                        -0.5cf^2 + f^3 + 0.5*(df/dz)^2 = Af + B     ehere A, B are const of integration.
+                        Simply the eq. and find roots of cubic polynomial.
+
+                        the final result is,
+                        u(x,t) = 0.5*a^2 * sec^2(0.5*a*(x - x_0 - a^2 *t))  
+where a2/2is amplitude of soliton and a^2 is velocity of propagation.
+x0 is center of bell-shaped wave at t=0.
+
+
+Initial Boundary Value
+
+\\
+\\
+
+
+Code Description
+\\
+\\
+
+
+
+
+
