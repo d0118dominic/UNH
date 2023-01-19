@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhydrocxx.a CMakeFiles/hydrocxx.dir/main_hydrogen.cxx.o CMakeFiles/hydrocxx.dir/functions.cxx.o CMakeFiles/hydrocxx.dir/vecmath.cxx.o CMakeFiles/hydrocxx.dir/polynomials.cxx.o CMakeFiles/hydrocxx.dir/writetofile.cxx.o
+/usr/bin/ranlib libhydrocxx.a
